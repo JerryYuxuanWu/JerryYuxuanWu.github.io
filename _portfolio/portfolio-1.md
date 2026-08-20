@@ -1,7 +1,7 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Understanding spatial characteristics of parking violations in Downtown Toronto"
+excerpt: "Spatial point pattern analysis of approximately 1.1 million parking tickets from 2023 and 2024."
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+Analyzed approximately 1.1 million parking tickets issued in Downtown Toronto across 2023 and 2024. Fitted Inhomogeneous Poisson Process and Log-Gaussian Cox Process models with Kernel Density Estimation covariates, and used HDBSCAN to identify significant violation hotspots.

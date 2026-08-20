@@ -23,14 +23,14 @@ repository               : "jerryyuxuanwu/jerryyuxuanwu.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Jerry.jpg"
+  avatar           : "jerry.jpg"
   name             : "Jerry Yuxuan Wu"
   pronouns         : # example: "she/her"  
-  bio              : "Academic portfolio and project site"
+  bio              : "Statistics PhD student at the University of Toronto focused on statistical computing, spatial data, and environmental health."
   location         : "Toronto, Canada"
   employer         : "University of Toronto"
   uri              : "https://jerryyuxuanwu.github.io"
-  email            : # e.g. "name@example.org"
+  email            : "jerryp.wu@mail.utoronto.ca"
 
   # Academic websites
   academia         : # URL
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "jerry-yuxuan-wu"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username

@@ -1,33 +1,46 @@
 {
   "basics": {
     "name": "Jerry Yuxuan Wu",
-    "email": "",
-    "phone": "",
+    "email": "jerryp.wu@mail.utoronto.ca",
+    "phone": "+1 647-607-9202",
     "website": "https://jerryyuxuanwu.github.io",
-    "summary": "Academic portfolio and project website for Jerry Yuxuan Wu.",
-    "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "",
-      "countryCode": "",
-      "region": ""
-    },
+    "summary": "Statistics PhD student at the University of Toronto with a strong foundation in Economics and Computer Science. Passionate about uncovering value in large, complex datasets through robust code, efficient data processing, and actionable visualizations.",
+    "location": {"address": "", "postalCode": "", "city": "Toronto", "countryCode": "CA", "region": "Ontario"},
     "profiles": [
-      {
-        "network": "GitHub",
-        "username": "jerryyuxuanwu",
-        "url": "https://github.com/jerryyuxuanwu"
-      }
+      {"network": "LinkedIn", "username": "jerry-yuxuan-wu", "url": "https://www.linkedin.com/in/jerry-yuxuan-wu"},
+      {"network": "GitHub", "username": "jerryyuxuanwu", "url": "https://github.com/jerryyuxuanwu"}
     ]
   },
-  "work": [],
-  "education": [],
-  "skills": [],
+  "work": [
+    {"name": "University of Toronto", "position": "Research Assistant", "company": "University of Toronto", "startDate": "2022-09", "endDate": "", "summary": "Provided programming assistance in R for data cleaning, visualization, and modelling; collaborated on journal articles concerning environmental pollution and unconventional oil and gas development.", "highlights": []},
+    {"name": "University of Toronto", "position": "Teaching Assistant", "company": "University of Toronto", "startDate": "2023-01", "endDate": "", "summary": "Conducted tutorials, supported undergraduate students, and evaluated assignments across statistics and data science courses.", "highlights": ["Courses: An Introduction to Statistical Reasoning and Data Science; Probability, Statistics and Data Analysis; Statistical Methods for Machine Learning; Statistics Aid Centre.", "Facilitated weekly in-person tutorials for groups of approximately 25 students."]},
+    {"name": "TMX Group", "position": "Data Engineer Intern", "company": "TMX Group", "startDate": "2022-05", "endDate": "2022-08", "summary": "Developed a flexible Python and regex fund fact sheet parser for PDF, TXT, and XML files stored on AWS S3; wrote SQL for data requests and quality assurance.", "highlights": ["Collaborated on data quality assurance using DBeaver, GitHub, and Excel.", "Used PostgreSQL and MySQL through Zeppelin, Redash, and DBeaver."]}
+  ],
+  "education": [
+    {"institution": "University of Toronto, St. George", "area": "Statistical Sciences", "studyType": "Doctor of Philosophy", "startDate": "2024-09", "endDate": "Present", "gpa": null, "courses": ["Methods of Applied Statistics", "Theory and Methods for Complex Spatial Data", "Time Series Analysis", "Advanced Computational Methods for Statistics", "Advanced Theory of Statistics"]},
+    {"institution": "University of Toronto, St. George", "area": "Statistics and Economics; Computer Science minor", "studyType": "Bachelor of Science", "startDate": "2019-09", "endDate": "2023-05", "gpa": "3.75/4.00", "courses": ["Methods of Data Analysis", "Statistical Machine Learning", "Economics with Machine Learning and Data Mining", "Big-Data Tools for Economists", "Introduction to Databases", "Calculus", "Linear Algebra"]}
+  ],
+  "skills": [
+    {"name": "Programming Languages", "keywords": ["R", "Python", "SQL", "Stata", "Presto", "Java", "JavaScript", "LaTeX", "HTML", "CSS"]},
+    {"name": "Libraries", "keywords": ["Tidyverse", "MASS", "olRss", "lme4", "openair", "Pandas", "Matplotlib", "Scikit-learn", "AWS S3", "CLI", "Boto3"]},
+    {"name": "Other Tools", "keywords": ["OpenAI API", "Power BI", "Git", "Jupyter", "DBeaver", "Google Workspace", "Microsoft Office", "Slack"]}
+  ],
   "languages": [],
   "interests": [],
   "references": [],
-  "publications": [],
-  "presentations": [],
+  "publications": [
+    {"name": "Modeling community hydrogen sulfide exposure in an urban industrial area during routine and extreme events", "publisher": "Environmental Pollution", "releaseDate": "2026-05-01", "website": "", "summary": "Meredith Franklin, Jerry Yuxuan Wu, Brandyn Ruiz, Jill Johnston, Arbor J.L. Quist."},
+    {"name": "Source Contributions to Air Pollution in the Permian Basin: Evaluating Emissions from Unconventional Oil and Gas Activities", "publisher": "Environmental Science and Technology Air", "releaseDate": "2026-04-01", "website": "", "summary": "Meredith Franklin, Gunnar Schade, Dani Caputi, Lara J. Cushing, Ryan W. Daly, Gabriel Greenberg, Detlev Helmig, Jacques Hueber, Jill E. Johnston, Katherine E. Potter, Michel Stahli, Jerry Yuxuan Wu."},
+    {"name": "Airborne Radioactivity in the New Mexico Oil and Gas Development area of the Permian Basin", "publisher": "Elementa: Science of the Anthropocene", "releaseDate": "2026-08-01", "website": "", "summary": "Dani Caputi, Meredith Franklin, Gabriel Greenberg, Jacques Hueber, Jill Johnston, Kat Potter, Gunnar Schade, Michel Stahli, Jerry Yuxuan Wu, Lara Cushing, Ryan Daly, Detlev Helmig."}
+  ],
+  "presentations": [
+    {"name": "Characterizing Unconventional Oil and Gas Development in the Permian Basin", "event": "Reading Course in Statistical Sciences", "date": "2022-12-01", "location": "Toronto, Canada", "description": "Presented the project context and findings with fellow peers and professors."}
+  ],
   "teaching": [],
-  "portfolio": []
+  "portfolio": [
+    {"name": "Understanding spatial characteristics of parking violations in Downtown Toronto", "category": "Course project", "date": "2025-12-01", "url": "", "description": "Analyzed approximately 1.1 million parking tickets from 2023 and 2024. Fitted Inhomogeneous Poisson Process and Log-Gaussian Cox Process models with Kernel Density Estimation covariates, and used HDBSCAN to identify violation hotspots."},
+    {"name": "Predicting traffic accident severity and the effect of cannabis legalization", "category": "Course project", "date": "2023-04-01", "url": "", "description": "Used regression, random forests, nearest-neighbor clustering, and neural networks to predict traffic severity in Quebec. Cleaned and processed Quebec Data Partnership data in Python and performed hyperparameter tuning and validation."},
+    {"name": "Characterizing unconventional oil and gas development in the Permian Basin", "category": "Research project", "date": "2022-09-01", "url": "", "description": "Automated an R ETL process for VIIRS night flare and Enverus well data, then used clustering, nearest-neighbor, and regression techniques to characterize flaring activity."},
+    {"name": "Modelling hydrogen sulfide concentrations and leaks from oil refineries in Los Angeles", "category": "Research project", "date": "2023-02-01", "url": "", "description": "Cleaned, validated, and mapped large datasets and shapefiles in R; used GAM and XGBoost models, cross-validation, Box-Cox transformations, and Extreme Value Theory."}
+  ]
 }
